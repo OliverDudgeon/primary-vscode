@@ -1,0 +1,53 @@
+{
+  "name": "primary-theme",
+  "displayName": "Primary Theme",
+  "description": "A warm, earthy theme for Visual Studio Code inspired by the Primary theme for Obsidian",
+  "version": "1.0.0",
+  "publisher": "primary-theme",
+  "author": "Cecilia May",
+  "contributors": [
+    "Oliver Dudgeon"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primary-theme/primary-theme"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "primary",
+    "warm",
+    "earthy"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Primary Light",
+        "uiTheme": "vs",
+        "path": "./themes/primary-light.json"
+      },
+      {
+        "label": "Primary Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/primary-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsx build/build-themes.ts",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0",
+    "@vscode/vsce": "^2.0.0"
+  }
+}
