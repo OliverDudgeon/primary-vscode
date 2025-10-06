@@ -2,6 +2,8 @@
 
 A warm, earthy theme for Visual Studio Code inspired by the [Primary theme for Obsidian](https://github.com/primary-theme/obsidian). Features cream and warm gray backgrounds with thoughtful syntax highlighting that's easy on the eyes.
 
+**Publisher**: [negativeone](https://marketplace.visualstudio.com/publishers/negativeone)
+
 ## Screenshots
 
 ### Light Theme
@@ -42,7 +44,7 @@ Or press `Cmd+K Cmd+T` / `Ctrl+K Ctrl+T` and choose from the list.
 
 ### From VSIX File
 
-1. Download the `.vsix` file from [Releases](https://github.com/primary-theme/primary-theme/releases)
+1. Download the `.vsix` file from [Releases](https://github.com/OliverDudgeon/primary-vscode/releases)
 2. Open VS Code
 3. Go to Extensions → `...` menu → **Install from VSIX...**
 4. Select the downloaded file
@@ -106,7 +108,7 @@ For the best experience with Primary Theme, consider these settings:
 
 ## Contributing
 
-Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/primary-theme/primary-theme/issues).
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/OliverDudgeon/primary-vscode/issues).
 
 ## License
 

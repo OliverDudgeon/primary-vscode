@@ -3,7 +3,7 @@
   "displayName": "Primary Theme",
   "description": "A warm, earthy theme for Visual Studio Code inspired by the Primary theme for Obsidian",
   "version": "0.1.0",
-  "publisher": "primary-theme",
+  "publisher": "negativeone",
   "author": "Cecilia May",
   "contributors": [
     "Oliver Dudgeon"
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primary-theme/primary-theme"
+    "url": "https://github.com/OliverDudgeon/primary-vscode"
   },
   "keywords": [
     "theme",
