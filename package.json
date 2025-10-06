@@ -2,8 +2,9 @@
   "name": "primary-theme",
   "displayName": "Primary Theme",
   "description": "A warm, earthy theme for Visual Studio Code inspired by the Primary theme for Obsidian",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "negativeone",
+  "icon": "primary.png",
   "author": "Cecilia May",
   "contributors": [
     "Oliver Dudgeon"
