@@ -1,126 +1,117 @@
-# Primary Theme for VS Code
+# Primary Theme for Visual Studio Code
 
-A warm, earthy color theme for Visual Studio Code, inspired by the popular [Primary theme for Obsidian](https://github.com/primary-theme/obsidian).
-
-## Features
-
-- **Two variants**: Light and Dark themes
-- **Carefully crafted color palette**: Warm, earthy tones that are easy on the eyes
-- **Consistent design**: Based on the beloved Primary theme for Obsidian
-- **Modern syntax highlighting**: Optimized for readability and focus
-- **Comprehensive UI theming**: Every element thoughtfully styled
-
-## Installation
-
-### From VS Code Marketplace
-
-1. Open **Extensions** sidebar panel in VS Code (`Cmd+Shift+X` on macOS, `Ctrl+Shift+X` on Windows/Linux)
-2. Search for `Primary Theme`
-3. Click **Install**
-4. Click **Reload** to apply the theme
-5. Go to `File > Preferences > Color Theme` (or `Code > Preferences > Color Theme` on macOS)
-6. Select **Primary Light** or **Primary Dark**
-
-### From VSIX file
-
-1. Download the latest `.vsix` file from the [releases page](https://github.com/primary-theme/primary-theme/releases)
-2. Open VS Code
-3. Go to Extensions (`Cmd+Shift+X` or `Ctrl+Shift+X`)
-4. Click on `...` at the top of the Extensions panel
-5. Select **Install from VSIX...**
-6. Choose the downloaded `.vsix` file
-
-## Color Palette
-
-### Light Theme
-
-The light theme features a warm, creamy background with earthy browns and subtle accent colors:
-
-- Background: Warm off-white (`#f6f5f2`)
-- Foreground: Deep brown (`#3a3022`)
-- Accent: Warm gray (`#7f7364`)
-- Keywords: Golden yellow (`#c7a511`)
-- Strings: Warm yellow (`#c7a511`)
-- Functions: Teal blue (`#25779a`)
-- Constants: Muted red (`#ae3b3b`)
-- Comments: Soft gray (`#9a9189`)
-
-### Dark Theme
-
-The dark theme offers a rich, comfortable dark background with warm undertones:
-
-- Background: Deep warm gray (`#27241f`)
-- Foreground: Warm beige (`#c9af96`)
-- Accent: Medium brown (`#3f3126`)
-- Keywords: Golden yellow (`#caaa2f`)
-- Strings: Warm yellow (`#caaa2f`)
-- Functions: Bright cyan (`#3ca3bc`)
-- Constants: Coral red (`#ef7976`)
-- Comments: Muted brown (`#7a6856`)
+A warm, earthy theme for Visual Studio Code inspired by the [Primary theme for Obsidian](https://github.com/primary-theme/obsidian). Features cream and warm gray backgrounds with thoughtful syntax highlighting that's easy on the eyes.
 
 ## Screenshots
 
 ### Light Theme
 
-![Primary Light Theme](assets/screenshot-light.png)
+![Primary Light - Editor](screenshots/light-editor.png)
+_Primary Light theme with TypeScript code_
+
+![Primary Light - Full View](screenshots/light-fullview.png)
+_Primary Light theme showing the full interface_
 
 ### Dark Theme
 
-![Primary Dark Theme](assets/screenshot-dark.png)
+![Primary Dark - Editor](screenshots/dark-editor.png)
+_Primary Dark theme with TypeScript code_
 
-## Development
+![Primary Dark - Full View](screenshots/dark-fullview.png)
+_Primary Dark theme showing the full interface_
 
-This theme is built using modern TypeScript tooling for maintainability and consistency.
+## Features
 
-### Building from source
+- 🎨 **Two Beautiful Variants**: Light and dark themes with consistent color philosophy
+- 🌾 **Warm & Earthy**: Cream backgrounds (light) and rich warm grays (dark)
+- 👁️ **Easy on the Eyes**: Carefully chosen colors for reduced eye strain
+- 💻 **Comprehensive Syntax Support**: Thoughtful highlighting for all major languages
+- 🔍 **Clear Highlights**: Yellow for search/word occurrences, gray for selections
+- 🎯 **Semantic Colors**: Blue accents, teal for functions, amber for warnings
 
-```bash
-# Install dependencies
-pnpm install
+## Installation
 
-# Generate theme files
-pnpm build
+### From VS Code Marketplace
 
-# Package extension
-pnpm package
-```
+1. Open **Extensions** sidebar (`Cmd+Shift+X` / `Ctrl+Shift+X`)
+2. Search for `Primary Theme`
+3. Click **Install**
+4. Click **Set Color Theme** and select **Primary Light** or **Primary Dark**
 
-### Project Structure
+Or press `Cmd+K Cmd+T` / `Ctrl+K Ctrl+T` and choose from the list.
 
-```
-vscode/
-├── build/
-│   ├── colors.ts          # Color palette definitions
-│   └── build-themes.ts    # Theme generation script
-├── themes/
-│   ├── primary-light.json # Generated light theme
-│   └── primary-dark.json  # Generated dark theme
-├── package.json
-├── tsconfig.json
-└── README.md
+### From VSIX File
+
+1. Download the `.vsix` file from [Releases](https://github.com/primary-theme/primary-theme/releases)
+2. Open VS Code
+3. Go to Extensions → `...` menu → **Install from VSIX...**
+4. Select the downloaded file
+
+## Color Palette
+
+### Light Theme
+
+- **Background**: `#f6f5f2` (Warm cream)
+- **Foreground**: `#3d3935` (Dark brown)
+- **Accent**: `#4d9cbc` (Soft blue)
+- **Keywords**: `#4d9cbc` (Blue)
+- **Functions**: `#47959e` (Teal)
+- **Strings**: `#48a473` (Green)
+- **Numbers**: `#e8b840` (Golden yellow)
+- **Comments**: `#9d9894` (Muted gray)
+
+### Dark Theme
+
+- **Background**: `#27241f` (Deep warm gray)
+- **Foreground**: `#d6d2ca` (Warm beige)
+- **Accent**: `#4d9cbc` (Soft blue)
+- **Keywords**: `#85b1c9` (Light blue)
+- **Functions**: `#63adb7` (Bright teal)
+- **Strings**: `#5ebf8c` (Bright green)
+- **Numbers**: `#e8c72f` (Bright yellow)
+- **Comments**: `#767069` (Muted gray)
+
+## Recommended Settings
+
+For the best experience with Primary Theme, consider these settings:
+
+```json
+{
+  "editor.fontFamily": "Cascadia Code, SF Mono, Monaco, Menlo, Consolas, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.tree.indent": 16,
+  "workbench.colorCustomizations": {
+    // Optional: Make the editor truly borderless
+    "[Primary Light]": {
+      "sideBar.border": "#f6f5f2",
+      "editorGroup.border": "#f6f5f2"
+    },
+    "[Primary Dark]": {
+      "sideBar.border": "#27241f",
+      "editorGroup.border": "#27241f"
+    }
+  }
+}
 ```
 
 ## Credits
 
-- **Original Design**: [Cecilia May](https://github.com/ceciliamay)
-- **Obsidian Theme**: [Primary for Obsidian](https://github.com/primary-theme/obsidian)
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details
+- **Original Obsidian Theme**: [Cecilia May](https://github.com/primary-theme/obsidian)
+- **VS Code Port**: Oliver Dudgeon
+- Inspired by the beautiful Primary theme for Obsidian
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/primary-theme/primary-theme/issues).
 
-## Feedback
+## License
 
-If you have suggestions or find issues, please open an issue on [GitHub](https://github.com/primary-theme/primary-theme/issues).
-
-## More Themes
-
-Looking for the Obsidian version? Check out [Primary for Obsidian](https://github.com/primary-theme/obsidian)!
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Enjoy coding with Primary! ✨**
+**Enjoy the warm, earthy aesthetic of Primary Theme!** ☕️🌾
