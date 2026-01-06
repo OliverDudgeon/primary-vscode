@@ -2,7 +2,11 @@
 
 All notable changes to the "Primary Theme" extension will be documented in this file.
 
-## [1.0.0] - 2025-10-06
+## [0.2.1] - 2026-01-06
+
+- Fix malformed inactive selection colors causing bright red highlights (Thanks @PaulTreanor!)
+
+## [0.2.0] - 2025-10-06
 
 ### Added
 
@@ -24,12 +28,3 @@ All notable changes to the "Primary Theme" extension will be documented in this 
 - Git decoration colors
 - Markdown-specific styling
 - JSON and CSS specific enhancements
-
----
-
-## Future Plans
-
-- [ ] Add icon theme support
-- [ ] Create additional color variants
-- [ ] Add product icon theme
-- [ ] Community feedback and refinements
