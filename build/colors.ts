@@ -69,67 +69,67 @@ export const lightColors = {
 };
 
 export const darkColors = {
-  // Grayscale
-  gray10: "#e4d2c1",
-  gray20: "#c9af96",
-  gray30: "#b9a399",
-  gray40: "#968575",
-  gray50: "#7a6856",
-  gray60: "#544333",
-  gray70: "#3f3126",
-  gray80: "#312822",
-  gray90: "#2b251d",
-  gray100: "#27241f",
-  gray110: "#25231e",
-  gray120: "#24221d",
-  gray130: "#1e1c17",
-  gray140: "#171410",
+	// Grayscale
+	gray10: "#e4d2c1",
+	gray20: "#c9af96",
+	gray30: "#b9a399",
+	gray40: "#968575",
+	gray50: "#7a6856",
+	gray60: "#544333",
+	gray70: "#3f3126",
+	gray80: "#312822",
+	gray90: "#2b251d",
+	gray100: "#27241f",
+	gray110: "#25231e",
+	gray120: "#24221d",
+	gray130: "#1e1c17",
+	gray140: "#171410",
 
-  // Red
-  red10: "#f6aba9",
-  red20: "#f38f8d",
-  red30: "#ef7976",
-  red40: "#d44941",
+	// Red
+	red10: "#f6aba9",
+	red20: "#f38f8d",
+	red30: "#ef7976",
+	red40: "#d44941",
 
-  // Orange
-  orange10: "#e0a471",
-  orange20: "#e1912e",
-  orange30: "#d18128",
-  orange40: "#b46c1d",
+	// Orange
+	orange10: "#e0a471",
+	orange20: "#e1912e",
+	orange30: "#d18128",
+	orange40: "#b46c1d",
 
-  // Yellow
-  yellow10: "#ead080",
-  yellow20: "#e7c344",
-  yellow30: "#caaa2f",
-  yellow40: "#ae9120",
+	// Yellow
+	yellow10: "#ead080",
+	yellow20: "#e7c344",
+	yellow30: "#caaa2f",
+	yellow40: "#ae9120",
 
-  // Green
-  green10: "#57ce76",
-  green20: "#37c058",
-  green30: "#1eb83a",
-  green40: "#17ab31",
+	// Green
+	green10: "#57ce76",
+	green20: "#37c058",
+	green30: "#1eb83a",
+	green40: "#17ab31",
 
-  // Blue
-  blue10: "#73c2d6",
-  blue20: "#59bdd8",
-  blue30: "#3ca3bc",
-  blue40: "#2c8ca7",
+	// Blue
+	blue10: "#73c2d6",
+	blue20: "#59bdd8",
+	blue30: "#3ca3bc",
+	blue40: "#2c8ca7",
 
-  // Purple
-  purple10: "#9f93d3",
-  purple20: "#877ac7",
-  purple30: "#756fc2",
-  purple40: "#6d66bf",
+	// Purple
+	purple10: "#9f93d3",
+	purple20: "#877ac7",
+	purple30: "#756fc2",
+	purple40: "#6d66bf",
 
-  // Special Colors (for syntax)
-  specialRed: "#e45742",
-  specialOrange: "#eea359",
-  specialYellow: "#f9cf51",
-  specialGreen: "#64c271",
-  specialCyan: "#5bafb7",
-  specialBlue: "#6389bf",
-  specialPurple: "#8b71b9",
-  specialPink: "#e06c8a",
+	// Special Colors (for syntax)
+	specialRed: "#a06b68",
+	specialOrange: "#eea359",
+	specialYellow: "#d4b566",
+	specialGreen: "#64c271",
+	specialCyan: "#72a5b0",
+	specialBlue: "#6389bf",
+	specialPurple: "#6c62b6",
+	specialPink: "#ebaeab",
 };
 
 export interface ThemeColors {
